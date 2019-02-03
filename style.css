@@ -1,3 +1,4 @@
+
 body, *{
     margin: 0px;
     padding: 0px;
@@ -30,7 +31,7 @@ body, *{
     padding-top: 50vh;
 }
 #welcome-section h4{
-    color: rgb(10, 59, 59)
+    color: rgb(9, 68, 68)
 }
 #projects{
     margin-top: 2% ;
@@ -52,7 +53,7 @@ body, *{
     width: 100%;
     background-color: aqua;
     padding: 3%;
-    text-align: center;
+    text-align:  center;
 }
 #connect a{
     text-decoration: none;
@@ -65,7 +66,6 @@ body, *{
         margin-top: 2% ;
         display:flex;
         flex-direction: column;
-        
         align-self: center;
         padding-left: 10%;
         padding-right: 10%;
