@@ -1,0 +1,80 @@
+body, *{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#navbar {
+    background-color: aqua;
+    width:100%;
+    position: fixed;
+    left: 0px;
+    top:0px;
+    float: left;
+}
+#navbar a{
+    margin: 10px;
+    height: 80%;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    float: right;
+    text-decoration: none;
+    color: black;
+    
+}
+#welcome-section{
+    background-color: aqua;
+    height: 50vh;
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 50vh;
+}
+#welcome-section h4{
+    color: rgb(10, 59, 59)
+}
+#projects{
+    margin-top: 2% ;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px 30px;
+    align-self: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+.project-tile a img{
+    width:400px;
+    border-radius: 5px;
+}
+#connect{
+    width: 100%;
+    background-color: aqua;
+    padding: 3%;
+    text-align: center;
+}
+#connect a{
+    text-decoration: none;
+}
+#connect a:hover{
+    color: black;
+}
+@media(max-width:700px){
+    #projects{
+        margin-top: 2% ;
+        display:flex;
+        flex-direction: column;
+        
+        align-self: center;
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: center;
+        font-weight: 600;
+        margin-bottom: 3%;
+    }
+    .project-tile a img{
+        width:400px;
+        border-radius: 5px;
+    }
+}
